@@ -1,31 +1,59 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<meta name="description" content="Page réalisée dans le cadre du cours d'intégration dispensé au département MMI de l'IUT de Haguenau ">
-		<meta name="keywords" content="integration, html, css, webdev, developpement, web">
-		<meta name="viewport" content="initial-scale=1">
 		<meta charset="UTF-8">
-		<title>Mon titre de page</title>
+		<title>FOOSESHOES</title>
 		<link rel="shortcut icon" href="images/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
 		<link rel="stylesheet" type="text/css" href="styles/basic.css">
 		<link rel="stylesheet" type="text/css" href="styles/main.css">
-
 	</head>
+    
 	<body>
-		<h1>Mon template HTML</h1>
-		<p>
-			This is my template
-		</p>
-		<script type="text/javascript" src="./js/mains.js"></script>
-		<script>
-					(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-					})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-					ga('create', 'xxxxxxxxxx', 'auto');
-					ga('send', 'pageview');
-		</script>
+        <div class="header">
+            <h1>FOOSESHOES</h1>
+            <div class="searchIcon">icon-search</div>
+            <div class="login">LOGIN or REGISTER</div>
+        </div>
+        
+        <div class="menu">
+            <ul class="menuHorizontal">
+                <li><a id="home">Home</a></li>
+                <li><a id="products">Products</a></li>
+                <li><a id="about">About</a></li>
+                <li><a id="pages">Pages</a></li>
+                <li><a id="blog">Blog</a></li>
+                <li><a id="contact">Contact</a></li>
+            </ul>
+            <div class="favoris">
+                <div class="wishlistIcon">icon-wishlist</div>
+                <div class="nbWishlist">30</div>
+            </div>
+            <div class="panier">
+                <div class="panierIcon">icon-panier</div>
+                <div class="nbPanier">0</div>
+            </div>
+        </div>
+        
+        <div class="top">
+            <div class="imgSlide">
+                <img src="./images/SlideBackground.jpg">
+            </div>
+            <div class="infoSlide">
+                <div class="prix">$145.99</div>
+                <h2>Pink Shoes 2013 Collection</h2>
+                <p>Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci. Donec dignissim dolor eget...</p>
+                <div class="iconSlide">
+                    <div class="viewIcon">icon-view</div>
+                    <div class="wishlistIcon">icon-wishlist</div>
+                    <div class="shareIcon">icon-share</div>
+                    <div class="buyIcon">icon-buy</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="specials">
+        </div>
+        
 	</body>
 </html>
